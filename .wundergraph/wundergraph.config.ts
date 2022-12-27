@@ -4,7 +4,7 @@ import operations from './wundergraph.operations';
 
 const db = introspect.sqlserver({
 	apiNamespace: 'db',
-	databaseURL: process.env.SQL_CONN_STR || 'opps, you should set env SQL_CONN_STR',
+	databaseURL: process.env.SQL_CONN_STR || 'oops, you should set env SQL_CONN_STR',
 	introspection: {
 	  pollingIntervalSeconds: 5,
 	},
